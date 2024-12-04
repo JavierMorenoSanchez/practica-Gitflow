@@ -1,0 +1,24 @@
+# Ignorar archivos de configuración del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de editor
+.vscode/
+*.swp
+*.swo
+
+# Ignorar archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar directorio node_modules
+/node_modules
+
+# Ignorar archivos de compilación o generados
+/dist
+/build
+/out
+
+*.tgz
+
